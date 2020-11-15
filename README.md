@@ -33,10 +33,11 @@ ctl.!default {
 
 first check where the mic is: `aplay -l`
 
+#### stream 
+
 `cvlc -vvv alsa://hw:1,0 --sout  '#transcode{acodec=mp3,ab=128}:rtp{mux=ts,dst=192.168.8.109,sdp=sap}'`
 
+#### listen to the stream
 
-## what doesn't work
-
-can not connect to started stream
+`cvlc rtp://192.168.8.109`
 
