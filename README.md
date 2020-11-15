@@ -6,7 +6,7 @@ we can just organize "streaming" as described here: http://www.heidislab.com/tut
 
 pulseaudio: `sudo apt-get install alsa-base pulseaudio`
 
-vlc: 
+vlc: `sudo apt-get install vlc`
 
 ## what works so far
 
