@@ -2,6 +2,12 @@
 
 we can just organize "streaming" as described here: http://www.heidislab.com/tutorials/audio-streaming-with-raspberry-pi-zero-w-and-adafruits-i2s-mic
 
+## what has to be installed on raspberry
+
+pulseaudio: `sudo apt-get install alsa-base pulseaudio`
+
+vlc: 
+
 ## what works so far
 
 ### audio recording to wav file
@@ -20,3 +26,4 @@ ctl.!default {
         card 0
 }
 ```
+
