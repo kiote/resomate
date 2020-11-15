@@ -38,5 +38,5 @@ first check where the mic is: `aplay -l`
 
 ## what doesn't work
 
-I'm trying to start streaming like that: `cvlc alsa://hw:1,0 --sout '#transcode{acodec=ulaw,samerate=8000,ab=128}:rtp{sdp=rtsp://192.168.8.109:8000/front.dsp}'` and getting this error: `VLC is unable to open the MRL 'alsa://hw:1,0'.` probably mic divice should be named somehow differently
+can not connect to started stream
 
